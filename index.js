@@ -3,7 +3,6 @@ import fs from 'node:fs'
 import { Client, Collection, Events, GatewayIntentBits, AttachmentBuilder, MessageFlags, EmbedBuilder } from 'discord.js'
 import path from 'node:path'
 import { fileURLToPath, pathToFileURL } from 'node:url'
-import cron from 'node-cron'
 
 export const client = new Client({ intents: [GatewayIntentBits.Guilds, GatewayIntentBits.MessageContent, GatewayIntentBits.DirectMessages, GatewayIntentBits.GuildMessages, GatewayIntentBits.GuildPresences, GatewayIntentBits.GuildMembers] })
 
