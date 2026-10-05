@@ -145,3 +145,5 @@ vite.config.ts.timestamp-*
 /generated/prisma
 
 badWord.json
+
+/generated/prisma
